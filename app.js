@@ -25,5 +25,5 @@ cameraTrigger.onclick = function() {
     cameraOutput.classList.add("taken");
 };
 
-window.addEventListener("load", cameraStart, false);
+window.addEventListener("load", cameraStart, true);
 
